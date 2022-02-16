@@ -4,12 +4,12 @@ function Footer() {
       <footer>
         <ul>
           <li>
-            <a href="https://github.com/arios10" target="blank">
+            <a href="https://github.com/arios10" target="_blank">
               <i>Github</i>
             </a>
           </li>
           <li>
-            <a href="mailto:ariosfly3@gmail.com" target="blank">
+            <a href="mailto:ariosfly3@gmail.com" target="_blank">
               <i>Email</i>
             </a>
           </li>
