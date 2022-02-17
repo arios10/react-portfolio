@@ -11,3 +11,96 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-around;
+}
+
+header nav span {
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+/* nav */
+header nav span:hover {
+  color: rgb(255, 4, 88);
+}
+
+header nav span.current {
+  border-bottom: solid rgb(56, 190, 243);
+}
+
+/* img resize */
+.resize {
+  width: 450px;
+  height: auto;
+}
+
+/* Contact Content Styles */
+#contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#contact .content-wrapper {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 60px;
+  margin-left: 80px;
+  margin-bottom: 60px;
+}
+
+#contact .title-wrapper h1 {
+  font-size: 30px;
+  padding: 30px 10px 10px;
+}
+
+/* Portfolio component style */
+#portfolio .title-wrapper {
+  text-align: center;
+}
+
+#portfolio .title-wrapper h2 {
+  font-size: 30px;
+  padding: 30px 10px 10px;
+}
+
+#portfolio ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#portfolio ul li {
+  width: 60%;
+  margin: 40px 0;
+}
+
+#portfolio ul li img {
+  width: 100%;
+  height: auto;
+}
+
+#portfolio h3 {
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: .04em;
+}
+
+#portfolio p {
+  font-size: 18px;
+  line-height: 1.4em;
+  padding: .5em 0;
+}
+
+#portfolio .button {
+  margin: auto;
+}
