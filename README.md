@@ -4,7 +4,7 @@ Portfolio for Angel Rios
 
 ## Screenshot
 
-![Screenshot](preview.png)
+![Screenshot](src\assets\images\screenshot.png)
 
 ## Deployed Link
 
